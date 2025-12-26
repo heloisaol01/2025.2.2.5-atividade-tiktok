@@ -29,52 +29,52 @@ Os protótipos de referência estão disponíveis no diretório `prototipos/`:
 ---
 
 ### Preparação
-- [ ] Analisar os protótipos mobile e desktop
-- [ ] Identificar os componentes principais da interface
-- [ ] Planejar a estrutura semântica do HTML
-- [ ] Definir breakpoints para responsividade
+- [x] Analisar os protótipos mobile e desktop
+- [x] Identificar os componentes principais da interface
+- [x] Planejar a estrutura semântica do HTML
+- [x] Definir breakpoints para responsividade
 
 ---
 
 ### Estrutura HTML
-- [ ] Criar arquivo `index.html` na raiz do projeto
-- [ ] Configurar a estrutura básica HTML5:
-  - [ ] Adicionar `<!DOCTYPE html>`
-  - [ ] Configurar tag `<html>` com atributo `lang="pt-BR"`
-  - [ ] Criar seção `<head>` com:
-    - [ ] Meta charset UTF-8
-    - [ ] Meta viewport para responsividade
-    - [ ] Tag `<title>` apropriada
-    - [ ] Link para arquivo CSS externo
-- [ ] Estruturar o `<body>` com elementos semânticos:
-  - [ ] Header (cabeçalho/navegação)
-  - [ ] Main (conteúdo principal)
-  - [ ] Footer (rodapé)
-- [ ] Adicionar conteúdo textual e imagens conforme protótipo mobile
+- [x] Criar arquivo `index.html` na raiz do projeto
+- [x] Configurar a estrutura básica HTML5:
+  - [x] Adicionar `<!DOCTYPE html>`
+  - [x] Configurar tag `<html>` com atributo `lang="pt-BR"`
+  - [x] Criar seção `<head>` com:
+    - [x] Meta charset UTF-8
+    - [x] Meta viewport para responsividade
+    - [x] Tag `<title>` apropriada
+    - [x] Link para arquivo CSS externo
+- [x] Estruturar o `<body>` com elementos semânticos:
+  - [x] Header (cabeçalho/navegação)
+  - [x] Main (conteúdo principal)
+  - [x] Footer (rodapé)
+- [x] Adicionar conteúdo textual e imagens conforme protótipo mobile
 
 ---
 
 ### Estilização CSS3 Mobile First
-- [ ] Criar arquivo `tiktok.css` (recomendado: criar pasta `css/` e salvar como `css/tiktok.css`)
-- [ ] Configurar reset/normalize CSS:
-  - [ ] Remover margens e paddings padrão
-  - [ ] Definir box-sizing como border-box
-- [ ] Implementar estilos base (mobile first):
-  - [ ] Tipografia (fontes, tamanhos, cores)
-  - [ ] Cores de fundo
-  - [ ] Espaçamentos (margins e paddings)
-  - [ ] Layout flexbox ou grid
-- [ ] Estilizar componentes específicos:
-  - [ ] Barra de navegação/header
-  - [ ] Cards ou seções de conteúdo
-  - [ ] Botões e elementos interativos
-  - [ ] Imagens e ícones
-  - [ ] Footer
-- [ ] Aplicar efeitos CSS3:
-  - [ ] Transições
-  - [ ] Sombras (box-shadow)
-  - [ ] Bordas arredondadas (border-radius)
-  - [ ] Gradientes (se aplicável)
+- [x] Criar arquivo `tiktok.css` (recomendado: criar pasta `css/` e salvar como `css/tiktok.css`)
+- [x] Configurar reset/normalize CSS:
+  - [x] Remover margens e paddings padrão
+  - [x] Definir box-sizing como border-box
+- [x] Implementar estilos base (mobile first):
+  - [x] Tipografia (fontes, tamanhos, cores)
+  - [x] Cores de fundo
+  - [x] Espaçamentos (margins e paddings)
+  - [x] Layout flexbox ou grid
+- [x] Estilizar componentes específicos:
+  - [x] Barra de navegação/header
+  - [x] Cards ou seções de conteúdo
+  - [x] Botões e elementos interativos
+  - [x] Imagens e ícones
+  - [x] Footer
+- [x] Aplicar efeitos CSS3:
+  - [x] Transições
+  - [x] Sombras (box-shadow)
+  - [x] Bordas arredondadas (border-radius)
+  - [x] Gradientes (se aplicável)
 
 ---
 
