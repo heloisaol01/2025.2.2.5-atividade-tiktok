@@ -79,24 +79,24 @@ Os protótipos de referência estão disponíveis no diretório `prototipos/`:
 ---
 
 ### Responsividade
-- [ ] Implementar media queries para tablet (min-width: 768px):
-  - [ ] Ajustar layouts
-  - [ ] Modificar tamanhos de fonte
-  - [ ] Reorganizar elementos se necessário
-- [ ] Implementar media queries para desktop (min-width: 1024px):
-  - [ ] Aplicar layout do protótipo desktop
-  - [ ] Ajustar larguras máximas
-  - [ ] Otimizar espaçamentos
-- [ ] Testar em diferentes tamanhos de tela (sugestão: 320px, 768px, 1024px, 1440px) usando DevTools do navegador
+- [x] Implementar media queries para tablet (min-width: 768px):
+  - [x] Ajustar layouts
+  - [x] Modificar tamanhos de fonte
+  - [x] Reorganizar elementos se necessário
+- [x] Implementar media queries para desktop (min-width: 1024px):
+  - [x] Aplicar layout do protótipo desktop
+  - [x] Ajustar larguras máximas
+  - [x] Otimizar espaçamentos
+- [x] Testar em diferentes tamanhos de tela (sugestão: 320px, 768px, 1024px, 1440px) usando DevTools do navegador
 
 ---
 
 ### Finalização
-- [ ] Testar a página em navegadores diferentes (Chrome, Firefox, Safari, Edge), inclusive usando F12 para o mobile
-- [ ] Verificar acessibilidade básica:
-  - [ ] Alt text em imagens
-  - [ ] Contraste de cores adequado
-  - [ ] Estrutura de headings hierárquica
+- [x] Testar a página em navegadores diferentes (Chrome, Firefox, Safari, Edge), inclusive usando F12 para o mobile
+- [x] Verificar acessibilidade básica:
+  - [x] Alt text em imagens
+  - [x] Contraste de cores adequado
+  - [x] Estrutura de headings hierárquica
      
 ---
 
@@ -106,5 +106,5 @@ Os protótipos de referência estão disponíveis no diretório `prototipos/`:
 - pode utilizar as mesmas imagens do protótipo ou pegar suas próprias imagens
 - as imagens devem ser colocadas em uma pasta, sugestão `imagens`
 - deve ter mais que 3 itens em cada _carousel_
-- [ ] Documentar decisões técnicas (se necessário)
-- [ ] Fazer commit final do projeto
+- [x] Documentar decisões técnicas (se necessário)
+- [x] Fazer commit final do projeto

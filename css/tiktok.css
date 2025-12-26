@@ -306,3 +306,132 @@ body {
 .sidebar {
     display: none;
 }
+
+
+@media (min-width: 1024px) {
+    body {
+        background: #fff;
+    }
+
+    .header {
+        padding: 0 24px;
+        background: #fff;
+        color: #000;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .header-tabs .tab {
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .header-tabs .tab.active {
+        color: #000;
+        border-bottom: 2px solid #000;
+    }
+
+    .sidebar {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 240px;
+        height: calc(100vh - 60px);
+        background: #fff;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 20px 0;
+        overflow-y: auto;
+        z-index: 90;
+    }
+
+    .sidebar-menu {
+        list-style: none;
+    }
+
+    .sidebar-item {
+        padding: 12px 24px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 16px;
+        transition: background 0.2s;
+    }
+
+    .sidebar-item:hover {
+        background: rgba(0, 0, 0, 0.05);
+    }
+
+    .sidebar-item.active {
+        color: #FE2C55;
+        background: rgba(254, 44, 85, 0.1);
+    }
+
+    .main-content {
+        margin-left: 240px;
+        display: flex;
+        justify-content: center;
+        background: #fff;
+        padding-top: 60px;
+    }
+
+    .video-container {
+        max-width: 480px;
+        height: calc(100vh - 80px);
+        margin: 20px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .video-content {
+        border-radius: 12px;
+    }
+
+    .bottom-nav {
+        display: none;
+    }
+
+    .following-accounts {
+        padding: 20px 24px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .following-title {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.5);
+        margin-bottom: 16px;
+    }
+
+    .following-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .following-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+    }
+
+    .following-avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #FE2C55, #20D5EC);
+    }
+
+    .following-name {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
